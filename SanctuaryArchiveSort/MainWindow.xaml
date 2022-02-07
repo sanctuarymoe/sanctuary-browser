@@ -1,0 +1,17 @@
+﻿<hc:Window x:Class="SanctuaryArchiveSort.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SanctuaryArchiveSort"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="#2D2D30">
+    <Grid>
+        <hc:ComboBox Name="xd" HorizontalAlignment="Left" Margin="567,24,0,0" VerticalAlignment="Top" Width="188"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="451,24,0,0" Width="82" Click="Button_Click" VerticalAlignment="Top"/>
+        <Button Name="AccentButton" Content="Change Accent Color" HorizontalAlignment="Left" Margin="22,73,0,0" VerticalAlignment="Top" Width="165" Click="AccentButton_Click"/>
+        <Label Name="AccentLabel" Content="No Skin yet" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Height="38" Width="208"/>
+    </Grid>
+</hc:Window>
