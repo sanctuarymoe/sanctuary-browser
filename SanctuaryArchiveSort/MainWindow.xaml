@@ -7,11 +7,15 @@
         xmlns:local="clr-namespace:SanctuaryArchiveSort"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
-        Background="#2D2D30">
+        Background="{DynamicResource RegionBrush}">
     <Grid>
         <hc:ComboBox Name="xd" HorizontalAlignment="Left" Margin="567,24,0,0" VerticalAlignment="Top" Width="188"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="451,24,0,0" Width="82" Click="Button_Click" VerticalAlignment="Top"/>
         <Button Name="AccentButton" Content="Change Accent Color" HorizontalAlignment="Left" Margin="22,73,0,0" VerticalAlignment="Top" Width="165" Click="AccentButton_Click"/>
         <Label Name="AccentLabel" Content="No Skin yet" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Height="38" Width="208"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="763,182,0,0" VerticalAlignment="Top"/>
+        <Border BorderBrush="Black" Background="Black" BorderThickness="1" Margin="145,133,174,79">
+            <ProgressBar Style="{StaticResource ProgressBarDanger}" Margin="42,95,29,105" Value="100" Maximum="200" IsIndeterminate="True"/>
+        </Border>
     </Grid>
 </hc:Window>

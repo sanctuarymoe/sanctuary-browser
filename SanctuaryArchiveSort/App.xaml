@@ -7,6 +7,8 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Basic/Colors/Light.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml"/>
                 <hc:Theme />
                 <hc:ThemeResources RequestedTheme="Dark" AccentColor="DarkCyan" />
             </ResourceDictionary.MergedDictionaries>
